@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.admin.helloandroid.MainActivity">
+
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+              <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/android"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="110dp"
+                android:text="UDACITY"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2465 Latham St"
+                android:textSize="15dp"
+                android:paddingHorizontal="110dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mountain View, CA 94043"
+                android:textSize="15dp"
+                android:paddingHorizontal="110dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:autoLink="phone"
+                android:paddingHorizontal="110dp"
+                android:text="650555555"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="www.udacity.com"
+                android:textColor="#2196F3"
+                android:textSize="20dp"
+                android:paddingHorizontal="110dp"
+                android:autoLink="web"/>
+
+
+          <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/logo" />
+
+
+        </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
